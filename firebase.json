@@ -21,7 +21,7 @@
     }
   ],
   "hosting": {
-    "public": "public",
+    "public": "dist/angular-material-3-frontend-v2",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -30,7 +30,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "browser/index.html"
       }
     ]
   },
